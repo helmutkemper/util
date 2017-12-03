@@ -1,6 +1,8 @@
 package util
 
-import "strings"
+import (
+  "strings"
+)
 
 func ToUtf8(iso8859_1_buf []byte) string {
   buf := make([]rune, len(iso8859_1_buf))
@@ -20,3 +22,4 @@ func RemoveSpellingAccents( text string ) string {
 
   return text
 }
+
