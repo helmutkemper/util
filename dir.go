@@ -1,35 +1,37 @@
 package util
 
 import (
-  "os"
-  "path/filepath"
+	"os"
+	"path/filepath"
 )
 
-func DirMake( path string ) error {
-  var err error
+func DirMake(path string) error {
+	var err error
 
-  if _, err = os.Stat( path ); os.IsNotExist( err ) {
-    err = os.Mkdir( path, 0777 )
-  }
+	dir, _ := filepath.Split(path)
 
-  return err
+	if _, err = os.Stat(dir); os.IsNotExist(err) {
+		err = os.MkdirAll(dir, 0777)
+	}
+
+	return err
 }
 
 func DirRemoveContents(dir string) error {
-  d, err := os.Open(dir)
-  if err != nil {
-    return err
-  }
-  defer d.Close()
-  names, err := d.Readdirnames(-1)
-  if err != nil {
-    return err
-  }
-  for _, name := range names {
-    err = os.RemoveAll(filepath.Join(dir, name))
-    if err != nil {
-      return err
-    }
-  }
-  return nil
+	d, err := os.Open(dir)
+	if err != nil {
+		return err
+	}
+	defer d.Close()
+	names, err := d.Readdirnames(-1)
+	if err != nil {
+		return err
+	}
+	for _, name := range names {
+		err = os.RemoveAll(filepath.Join(dir, name))
+		if err != nil {
+			return err
+		}
+	}
+	return nil
 }
