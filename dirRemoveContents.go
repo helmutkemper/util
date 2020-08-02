@@ -5,18 +5,6 @@ import (
 	"path/filepath"
 )
 
-func DirMake(path string) error {
-	var err error
-
-	dir, _ := filepath.Split(path)
-
-	if _, err = os.Stat(dir); os.IsNotExist(err) {
-		err = os.MkdirAll(dir, 0777)
-	}
-
-	return err
-}
-
 func DirRemoveContents(dir string) error {
 	d, err := os.Open(dir)
 	if err != nil {

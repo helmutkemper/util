@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="" />
+    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="randID">
+      <change afterPath="$PROJECT_DIR$/byteToUtf8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dirCheckExists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dirMake.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileCheckExists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileFindInThree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idRand20.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringRemoveSpellingAccents_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir.go" beforeDir="false" afterPath="$PROJECT_DIR$/dirRemoveContents.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathRound.go" beforeDir="false" afterPath="$PROJECT_DIR$/round.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randIdGenerator.go" beforeDir="false" afterPath="$PROJECT_DIR$/idRand.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sizeUnit.go" beforeDir="false" afterPath="$PROJECT_DIR$/sizeToString.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/stringRemoveSpellingAccents.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/roundl_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +72,23 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\helmut.kemper.CS\GolandProjects\Libraries\src\github.com\helmutkemper\util" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -72,15 +100,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DirMake &gt; MkdirAll adicionado" />
-    <option name="LAST_COMMIT_MESSAGE" value="DirMake &gt; MkdirAll adicionado" />
+    <MESSAGE value="randID" />
+    <option name="LAST_COMMIT_MESSAGE" value="randID" />
   </component>
   <component name="WindowStateProjectService">
     <state x="471" y="295" key="#GOROOT" timestamp="1593616711996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="471" y="295" key="#GOROOT/0.0.1366.728@0.0.1366.728" timestamp="1593616711996" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593616829937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593616829937" />
   </component>
 </project>

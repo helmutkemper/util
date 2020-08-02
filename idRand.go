@@ -12,7 +12,7 @@ var randomList = []string{
 	"5", "6", "7", "8", "9",
 }
 
-func RandIdBySize(size int) (ID string) {
+func IdRand(size int) (ID string) {
 	randomSource := rand.NewSource(time.Now().UnixNano())
 	randomGenerator := rand.New(randomSource)
 
@@ -21,8 +21,4 @@ func RandIdBySize(size int) (ID string) {
 	}
 
 	return
-}
-
-func RandId20() (ID string) {
-	return RandIdBySize(20)
 }

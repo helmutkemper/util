@@ -10,7 +10,7 @@ const teraByte = 1024 * 1024 * 1024
 const megaByte = 1024 * 1024
 const kiloByte = 1024
 
-func SizeToByteUnit(value int64) string {
+func SizeToString(value int64) string {
 
 	if value == -1 {
 		return "0 B"
