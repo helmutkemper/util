@@ -19,22 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="randID">
-      <change afterPath="$PROJECT_DIR$/byteToUtf8.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dirCheckExists.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dirMake.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileCheckExists.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileFindInThree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idRand20.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stringRemoveSpellingAccents_test.go" afterDir="false" />
+    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="added trace log">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir.go" beforeDir="false" afterPath="$PROJECT_DIR$/dirRemoveContents.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathRound.go" beforeDir="false" afterPath="$PROJECT_DIR$/round.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randIdGenerator.go" beforeDir="false" afterPath="$PROJECT_DIR$/idRand.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sizeUnit.go" beforeDir="false" afterPath="$PROJECT_DIR$/sizeToString.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/stringRemoveSpellingAccents.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/roundl_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +35,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Users\helmut.kemper.CS\go\go1.14.3" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.16.3" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="59" />
@@ -65,12 +55,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,6 +74,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\helmut.kemper.CS\GolandProjects\Libraries\src\github.com\helmutkemper\util" />
     </key>
@@ -105,16 +100,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DirMake &gt; MkdirAll adicionado" />
     <MESSAGE value="randID" />
-    <option name="LAST_COMMIT_MESSAGE" value="randID" />
+    <MESSAGE value="added trace log" />
+    <option name="LAST_COMMIT_MESSAGE" value="added trace log" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="471" y="295" key="#GOROOT" timestamp="1593616711996">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="471" y="295" key="#GOROOT/0.0.1366.728@0.0.1366.728" timestamp="1593616711996" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593616829937">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593616829937" />
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
