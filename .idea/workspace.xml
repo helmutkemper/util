@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="added trace log">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7793f62a-8722-4a0e-99ad-2523f1d5ba13" name="Default Changelist" comment="added go.mod" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,7 +99,8 @@
     <MESSAGE value="DirMake &gt; MkdirAll adicionado" />
     <MESSAGE value="randID" />
     <MESSAGE value="added trace log" />
-    <option name="LAST_COMMIT_MESSAGE" value="added trace log" />
+    <MESSAGE value="added go.mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="added go.mod" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
