@@ -1,3 +1,3 @@
-module github.com/helmutkemper/util/v1.0.0
+module github.com/helmutkemper/util
 
 go 1.10
